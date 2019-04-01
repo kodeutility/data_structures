@@ -1,0 +1,23 @@
+-Computer science is the study of problems, problem-solving, and the solutions that come out of the problem-solving process
+-Given a problem, a computer scientist’s goal is to develop an algorithm, a step-by-step list of instructions for solving any instance of the problem that might arise.
+-Computer science can be thought of as the study of algorithms.
+-Some problems can't be solved.
+-computer science is the study of solutions to problems as well as the study of problems with no solutions.
+-Computer science is also the study of abstraction.
+-Abstraction allows us to view the problem and solution in such a way as to separate the so-called logical and physical perspectives.
+-Physical perspective is knowing the detail under the hood.
+-The user of the abstraction, sometimes also called the client, does not need to know the details as long as the user is aware of the way the interface works.
+-Logical perspective: Knowing what it does
+-Physical perspective: Knowing how it does
+-Interface is the way we as users communicate with the underlying complexities of the implementation.
+-Programming is the process of taking an algorithm and encoding it into a notation, a programming language, so that it can be executed by a computer.
+-First step is the need to have the solution. Without an algorithm there can be no program.
+-Programming is often the way that we create a representation for our solutions.
+-All data items in the computer are represented as strings of binary digits.
+-In order to give these strings meaning, we need to have data types.
+-Data types provide an interpretation for this binary data so that we can think about the data in terms that make sense with respect to the problem being solved.
+-These low-level, built-in data types (sometimes called the primitive data types) provide the building blocks for algorithm development.
+-E.g.:Strings of binary digits in the computer’s memory can be interpreted as integers and given the typical meanings that we commonly associate with integers (e.g. 23, 654, and -19).
+-A data type also provides a description of the operations that the data items can participate in.
+-Numeric types of data can participate in arithmetic operations.
+-
