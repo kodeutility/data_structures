@@ -10,9 +10,22 @@
 -Logical perspective: Knowing what it does
 -Physical perspective: Knowing how it does
 -Interface is the way we as users communicate with the underlying complexities of the implementation.
+
+E.g.
+import math
+math.sqrt(16)
+
+-This is an example of procedural abstraction.
+-We do not necessarily know how the square root is calculated but we know what the function is called and how we use it.
+-So an abstraction allows the user or client to communicate with and operate the program without the knowledge of it's working.
+-It is the interface which simplifies the operation of the program.
+-A procedural abstraction within a programming language such as a an imported library or function in python allows us to call and use a function such as 'math' without knowing internal implementation.
+
 -Programming is the process of taking an algorithm and encoding it into a notation, a programming language, so that it can be executed by a computer.
 -First step is the need to have the solution. Without an algorithm there can be no program.
 -Programming is often the way that we create a representation for our solutions.
+-Algorithms describe the solution to a problem in terms of the data needed to represent the problem instance and the set of steps necessary to produce the intended result. 
+-Programming languages must provide a notational way to represent both the process and the data.
 -All data items in the computer are represented as strings of binary digits.
 -In order to give these strings meaning, we need to have data types.
 -Data types provide an interpretation for this binary data so that we can think about the data in terms that make sense with respect to the problem being solved.
@@ -20,4 +33,6 @@
 -E.g.:Strings of binary digits in the computer’s memory can be interpreted as integers and given the typical meanings that we commonly associate with integers (e.g. 23, 654, and -19).
 -A data type also provides a description of the operations that the data items can participate in.
 -Numeric types of data can participate in arithmetic operations.
--
+-The difficulty that often arises for us is the fact that problems and their solutions are very complex. 
+-These simple, language-provided constructs and data types, although certainly sufficient to represent complex solutions, are typically at a disadvantage as we work through the problem-solving process. 
+-We need ways to control this complexity and assist with the creation of solutions.
